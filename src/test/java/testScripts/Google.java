@@ -12,7 +12,7 @@ public class Google {
 		driver.navigate().to("https://www.google.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.name("q")).sendKeys("Java Tutorial");
-		
+		System.out.println("keerthi");
 		
 	}
 
